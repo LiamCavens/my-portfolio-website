@@ -13,10 +13,10 @@ body {
 }
 
 .soft-and-dev {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    font-family: "Bungee", cursive;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: "Bungee", cursive;
   color: whitesmoke;
   font-size: 31px;
   margin: 0 2%;
@@ -52,7 +52,7 @@ body {
 #nav-bar li {
   float: right;
   padding-right: 2%;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 .home-button {
@@ -114,6 +114,7 @@ body {
   font-size: 28px;
   margin: auto;
   padding: 1%;
+  margin-top: 2%;
   text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
     -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
 }
@@ -194,4 +195,46 @@ body {
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.porfolio-projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 3%;
+}
+
+.project {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 3%;
+    margin: 0.5% 0;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.project:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    transition: 0.1s all ease-in-out;
+}
+
+.project-image {
+    margin-top: 1%;
+    width: 22vw;
+    height: 30vh;
+}
+
+.project-title {
+    font-family: "Raleway", cursive;
+    font-weight: 700;
+}
+
+.project-language {
+    font-family: "Raleway", cursive;
+    font-style: italic;
+    font-size: 10px;
+    padding: 1% 0;
+    color: #444;
 }
