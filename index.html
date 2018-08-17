@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
     <title>Liam Cavens | Software & Web Developer</title>
 </head>
+
 <body>
     <section>
         <div class="header-container">
             <header>
                 <h1 class="header-title">Liam Cavens</h1>
+                <span class="soft-and-dev">Software & Web Developer</span>
             </header>
         </div>
-        <nav class="nav-bar">
+        <nav id="nav-bar">
             <ul>
                 <li class="home-button"><a href="">Home</a></li>
                 <li><a href="">Contact</a></li>
@@ -24,17 +28,49 @@
             </ul>
         </nav>
     </section>
-    <section>
+    <section class="about-me">
         <div class="about-me-container">
             <img class="liam-image" src="./images/LiamCavensCenter.jpg" alt="">
-            <span class="statement">I am a self-motivated and driven software developer, seeking a fulfilling career change into a full stack software development
-            role following my graduation from CodeClan in July 2018. The course has predominantly given me exposure to JavaScript, Java
-            and Ruby and sparked a keen passion for every day learning and challenges. I’m now looking to continue my development by
-            learning more software languages and frameworks. Software development has focused my passion for problem solving and overcoming
-            user/customer problems as well as writing clean, robust and maintainable code. I’m intrigued by technology, curious about
-            machine learning and enjoy attending Glasgow tech-meet ups as often as I can.
+            <span class="statement">I am a self-motivated and driven software developer, seeking a fulfilling career change
+                into a full stack software development role following my graduation from CodeClan in July 2018. The course
+                has predominantly given me exposure to JavaScript, Java and Ruby and sparked a keen passion for every day
+                learning and challenges. I’m now looking to continue my development by learning more software languages and
+                frameworks. Software development has focused my passion for problem solving and overcoming user/customer
+                problems as well as writing clean, robust and maintainable code. I’m intrigued by technology, curious about
+                machine learning and enjoy attending Glasgow tech-meet ups as often as I can.
             </span>
         </div>
     </section>
+    <section>
+        <div class="portfolio-container">
+            <h2 class="portfolio-title">Portfolio</h2>
+            <span class="portfolio-description">
+                Below are a few projects I have completed, some have live examples, I am currently in the process of getting them all live.
+            </span>
+        </div>
+    </section>
+    <footer>
+        <div class="contact-container">
+            <div class="contact-button">
+                <a href="mailto:liamcavens@googlemail.com" class="contact-button-text">Contact Me</a>
+            </div>
+            
+            <div class="contact-icons">
+                <a href="https://github.com/LiamCavens" target="_blank">
+                    <i class="demo-icon icon-github-circled">&#xf09b;</i>
+                </a>
+                <a href="https://www.linkedin.com/in/liamcavens/" target="_blank">
+                    <i class="demo-icon icon-linkedin-squared">&#xf30c;</i>
+                </a>
+                <a href="mailto:liamcavens@googlemail.com">
+                    <i class="demo-icon icon-mail-alt">&#xf0e0;</i>
+                </a> 
+                        
+            </div>
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
