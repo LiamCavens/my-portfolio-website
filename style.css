@@ -7,7 +7,8 @@ body {
   font-family: "Bungee", cursive;
   color: whitesmoke;
   font-size: 62px;
-  padding-top: 2%;
+  padding: 2%;
+  margin: 0%;
   text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
     -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
 }
@@ -19,7 +20,8 @@ body {
   font-family: "Bungee", cursive;
   color: whitesmoke;
   font-size: 31px;
-  padding-right: 3%;
+  padding: 1% 2%;
+  margin: 0;
   text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
     -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
 }
