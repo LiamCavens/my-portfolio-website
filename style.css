@@ -147,6 +147,7 @@ body {
 }
 
 .portfolio-description {
+  text-align: center;
   width: 70%;
   margin: 2% 15%;
   font-family: "Raleway", cursive;
