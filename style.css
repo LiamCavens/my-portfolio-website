@@ -15,11 +15,12 @@ body {
 
 .soft-and-dev {
   position: absolute;
+  bottom: 0;
   right: 0;
   font-family: "Bungee", cursive;
   color: whitesmoke;
   font-size: 31px;
-  margin: 50% 2% 0 2%;
+  margin: 0 2% 0 2%;
   padding: 1%;
   text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
     -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
@@ -33,6 +34,7 @@ body {
 }
 
 .header-container {
+  position: relative;
   background-image: url("./images/programming-code.jpg");
   background-size: cover;
   width: 100%;
