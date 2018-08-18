@@ -9,8 +9,8 @@ body {
   font-size: 62px;
   padding: 1%;
   margin: 0%;
-  text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
-    -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red,
+    -1px 1px 0 red, 1px 1px 0 red;
 }
 
 .soft-and-dev {
@@ -22,13 +22,13 @@ body {
   font-size: 31px;
   padding: 1% 2%;
   margin: 0;
-  text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
-    -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red,
+    -1px 1px 0 red, 1px 1px 0 red;
 }
 
 ::selection {
   background: darkgray;
-  color: dodgerblue;
+  color: red;
   text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222,
     1px 1px 0 #222;
 }
@@ -74,7 +74,7 @@ body {
 
 #nav-bar li a:hover {
   background-color: #444;
-  color: dodgerblue;
+  color: red;
   transition: 0.1s all cubic-bezier(0.5, 0.22, 0.74, 0.76);
 }
 
@@ -118,8 +118,8 @@ body {
   margin: auto;
   padding: 1%;
   margin-top: 2%;
-  text-shadow: -1px -1px 0 dodgerblue, 1px -1px 0 dodgerblue,
-    -1px 1px 0 dodgerblue, 1px 1px 0 dodgerblue;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red,
+    -1px 1px 0 red, 1px 1px 0 red;
 }
 
 .contact-container {
@@ -133,7 +133,7 @@ body {
   font-family: "Bungee", cursive;
   width: 132px;
   margin: 9px auto 0;
-  background: dodgerblue;
+  background: red;
   padding: 10px 0;
   border-radius: 5px;
   text-align: center;
@@ -167,7 +167,7 @@ body {
 .contact-icons {
   text-align: center;
   padding: 2%;
-  color: dodgerblue;
+  color: red;
 }
 
 @font-face {
@@ -190,7 +190,7 @@ body {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  color: dodgerblue;
+  color: red;
   margin: 0 0.5em;
   text-align: center;
   font-variant: normal;
@@ -257,6 +257,7 @@ body {
     width: 70%;
   }
 }
+
 
 #nav-bar ul button {
   border: none;

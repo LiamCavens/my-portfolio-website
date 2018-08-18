@@ -21,13 +21,6 @@ function toggleCodes(on) {
   }
 }
 
-
-const offset = 45;
-const bodyRect = document.body.getBoundingClientRect().top;
-const elementRect = element.getBoundingClientRect().top;
-const elementPosition = elementRect - bodyRect;
-const offsetPosition = elementPosition - offset;
-
 function jumpTo(element) {
     const ele = document.getElementById(element);
     const offset = 60;
@@ -40,4 +33,8 @@ function jumpTo(element) {
         top: offsetPosition,
         behavior: 'smooth'
     });
+}
+
+function swapStyleSheet(sheet){
+    document.getElementById('pagestyle').setAttribute('href', sheet);
 }
