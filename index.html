@@ -13,7 +13,7 @@
 
 <body>
     <section>
-        <div class="header-container">
+        <div id="top" class="header-container">
             <header>
                 <h1 class="header-title">Liam Cavens</h1>
                 <span class="soft-and-dev">Software & Web Developer</span>
@@ -21,15 +21,15 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <li class="home-button"><a href="">Home</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Liam</a></li>
+                <li class="home-button"><a onclick="jumpTo('top')">Home</a></li>
+                <li><a onclick="jumpTo('contact')">Contact</a></li>
+                <li><a onclick="jumpTo('portfolio')">Portfolio</a></li>
+                <li><a onclick="jumpTo('liam')">Liam</a></li>
             </ul>
         </nav>
     </section>
     <section class="about-me">
-        <div class="about-me-container">
+        <div id="liam" class="about-me-container">
             <img class="liam-image" src="./images/LiamCavensCenter.jpg" alt="">
             <span class="statement">I am a self-motivated and driven software developer, seeking a fulfilling career change
                 into a full stack software development role following my graduation from CodeClan in July 2018. The course
@@ -42,52 +42,65 @@
         </div>
     </section>
     <section>
-        <div class="portfolio-container">
+        <div id="portfolio" class="portfolio-container">
             <h2 class="portfolio-title">Portfolio</h2>
             <span class="portfolio-description">
                 Below are a few projects I have completed, some have live examples, I am currently in the process of getting them all live.
             </span>
+
             <div class="porfolio-projects">
-                <div class="project">
+
+                <a class="project" href="https://github.com/LiamCavens/RoutePlanner-JS-Project" target="_blank">
                     <span class="project-title">Route Planner</span>
                     <span class="project-language">Javascript/React</span>
                     <img src="./images/RoutePlannerScreen.jpg" alt="" class="project-image">
-                </div>
+                </a>
 
-                <div class="project">
+                <a class="project" href="https://liamcavens-flickr-app.netlify.com/" target="_blank">
+
                     <span class="project-title">Flickr App</span>
                     <span class="project-language">Javascript/React</span>
                     <img src="./images/FlickrScreen.jpg" alt="" class="project-image">
-                </div>
 
-                <div class="project">
+                </a>
+
+                <a class="project" href="https://liamcavens-top-20.netlify.com/" target="_blank">
+
                     <span class="project-title">iTunes App</span>
                     <span class="project-language">Javascript/React</span>
                     <img src="./images/iTunesScreen.jpg" alt="" class="project-image">
-                </div>
 
-                <div class="project">
+                </a>
+
+                <a class="project" href="https://github.com/LiamCavens/AnimalShelterProject" target="_blank">
+
                     <span class="project-title">Animal Shelter</span>
                     <span class="project-language">Ruby</span>
                     <img src="./images/AnimalShelterScreen.jpg" alt="" class="project-image">
-                </div>
 
-                <div class="project">
+                </a>
+
+                <a class="project" href="https://github.com/LiamCavens/Angular-Bookkeeping-Website" target="_blank">
+
                     <span class="project-title">Angular Bookeeping</span>
                     <span class="project-language">TypeScript/Angular</span>
                     <img src="./images/AngularScreen.jpg" alt="" class="project-image">
-                </div>
 
-                <div class="project">
+                </a>
+
+                <a class="project" href="https://github.com/LiamCavens/OnlineShopJavaProject" target="_blank">
+
                     <span class="project-title">Online Shop</span>
                     <span class="project-language">Java</span>
                     <img src="./images/OnlineShopScreen.jpg" alt="" class="project-image">
-                </div>
+
+                </a>
+
             </div>
         </div>
     </section>
     <footer>
-        <div class="contact-container">
+        <div id="contact" class="contact-container">
             <div class="contact-button">
                 <a href="mailto:liamcavens@googlemail.com" class="contact-button-text">Contact Me</a>
             </div>
