@@ -246,3 +246,13 @@ body {
     text-decoration: none;
     color: #333;
 }
+
+@media screen and (max-width: 600px) {
+  .project{
+    width: 90%;
+  }
+
+  .project-image {
+    width: 70%;
+  }
+}
