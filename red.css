@@ -60,7 +60,7 @@ body {
 .home-button {
   float: left !important;
   padding-left: 2%;
-  margin-right: 30.5%;
+  margin: 0 auto;
 }
 
 #nav-bar li a {
